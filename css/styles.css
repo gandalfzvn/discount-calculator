@@ -7,8 +7,10 @@ body {
   margin-top: 10%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .card {
       width: auto;
     }
+
+    
 }
