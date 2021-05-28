@@ -12,5 +12,25 @@ body {
       width: auto;
     }
 
-    
+    h1 {
+      font-size: 5rem;
+    }
+
+    h5 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+    label {
+      font-size: 2rem;
+    }
+
+    input {
+      font-size: 1.5rem;
+    }
+
+
 }

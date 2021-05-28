@@ -19,7 +19,7 @@
   <form class="myForm" action="">
     <div class="card mx-auto">
       <div class="card-header">
-        Rabatterat pris
+        <p>Rabatterat pris:</p>
       </div>
       <div class="card-body discount-price">
         <h5 id="priceAfterDiscount" class="card-title">0 €</h5>
@@ -34,7 +34,7 @@
               <label for="price">Pris:</label>
             </div>
             <div class="col-10">
-              <input id="price" type="text" name="price" placeholder="T.ex. 35.00">
+              <input id="price" type="number" name="price" placeholder="T.ex. 35.00">
             </div>
           </div>
         </li>
@@ -42,10 +42,10 @@
         <li class="list-group-item">
           <div class="row">
             <div class="col-2">
-              <label for="discount">Rabatt:</label>
+              <label for="discount">Rabatt: </label>
             </div>
             <div class="col-10">
-              <input id="discount" type="text" name="discount" placeholder="T.ex. 20">
+              <input id="discount" type="number" name="discount" placeholder="T.ex. 20">
             </div>
           </div>
         </li>
@@ -58,7 +58,7 @@
   </form>
 
   <div class="alert alert-warning" role="alert">
-    Använd . istället för , och skriv enbart siffror
+    <p>Använd . istället för , och skriv enbart siffror</p>
   </div>
 
 
